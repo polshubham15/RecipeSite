@@ -1,0 +1,125 @@
+body{
+                background-color: #8ba1bb;
+                font-family: Arial;
+            }
+           
+            div.content{
+                text-align: center;
+                
+            }
+
+            div.lower{
+                background-color: white;
+                margin: -20px 10% 80px 10%;
+                padding: 30px;
+                box-shadow: 0px 0px 5px 5px rgb(45, 47, 50, 0.6);
+               
+            }
+            p.content{
+                
+                background-color: black;
+                color: white;
+                display:inline-block;
+                font-size: 15px;
+                margin-bottom: 0;
+                padding: 8px 20px;
+            }
+            .pcenter{
+                text-align: center;
+                
+            }
+            h1.pcenter{
+                padding-top: 20px;
+            }
+            p.pcenter{
+                text-align: center;
+                max-width: 350px;
+                display: inline-block;
+            }
+            div.seperatpr{
+                height: 1px;
+                width: 100px;
+                background-color: black;
+                margin-left: auto;
+                margin-right: auto;
+            }
+            div.pcenter{
+                text-align: center;
+            }
+            img.photo{
+                display: block;
+                width: 100%;
+            }
+            div.photo{
+                align-items: center;
+                position: relative;
+                background-color: yellow;
+            }
+            table.t{
+                position: absolute; bottom: 0;
+                width: 100%;
+                height: 80px;
+                color: white;
+                background-color: #3e2828;
+                opacity: 0.6;
+                text-align: center;
+            }
+            div.col1{
+               
+                display: inline-block;
+                padding-right: 10px;
+                
+            }
+            div.col2{
+                float: right;
+                
+            }
+            div.col1,div.col2{
+                width: 45%;
+                margin-top: 20px;
+                
+            }
+            div.col h2{
+               text-align: center;
+               text-transform: uppercase;
+               font-size: 20px;
+               border-bottom: 6px solid #c7b9b9;
+               padding-bottom: 5px;
+
+            }
+            div.item p{
+                border: 2px solid #c7b9b9;
+                padding: 8px 0;
+                text-align: center;
+                font-size: 14px;
+                margin-top: 4px;
+                margin-bottom: 2px;
+            }
+            table.Instructions p.Instructions{
+                background-color: #c7b9b9;
+                color: white;
+                font-size: 15px;
+                font-weight: bold;
+                width: 25px;
+                height: 25px;
+                text-align: center;
+                padding-top: 4px;
+                box-sizing: border-box;
+                border-radius: 50%;
+                margin: 0;
+                
+            }
+            table.Instructions td.steps{
+                font-size: 15px;
+                padding-left: 10px;
+                padding-bottom: 10px;
+            }
+            table.Instructions td{
+                vertical-align: top;
+            }
+            table.Instructions tr{
+                height: 40px;
+            }
+            *{
+                overflow: auto;
+            }
