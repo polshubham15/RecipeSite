@@ -10,10 +10,9 @@ body{
 
             div.lower{
                 background-color: white;
-                margin: -20px 10% 80px 10%;
-                padding: 30px;
-                box-shadow: 0px 0px 5px 5px rgb(45, 47, 50, 0.6);
-               
+                margin: -20px 4px 30px 4px;
+                padding: 10px;
+                box-shadow: 0px 0px 5px 5px rgb(45, 47, 50, 0.6);  
             }
             p.content{
                 
@@ -46,36 +45,54 @@ body{
             div.pcenter{
                 text-align: center;
             }
-            img.photo{
-                display: block;
-                width: 100%;
-            }
+            
             div.photo{
                 align-items: center;
                 position: relative;
-                background-color: yellow;
+                width: 100%;
+                
+                
             }
             table.t{
                 position: absolute; bottom: 0;
                 width: 100%;
-                height: 80px;
+                height: 40px;
                 color: white;
                 background-color: #3e2828;
                 opacity: 0.6;
                 text-align: center;
             }
+            table.t th {
+                font-size: 14px;
+                vertical-align: bottom;
+                padding-bottom: 8px;
+            }
+            table.t td {
+                vertical-align: top;
+                text-align: bottom;
+                font-size: 12px;
+            }
+            img.photo{
+                display: block;
+                width: 100%;
+                object-fit: cover;
+                max-height: 400px;
+                min-height: 200px;
+                
+            
+            }
             div.col1{
                
                 display: inline-block;
-                padding-right: 10px;
+                /*padding-right: 10px;*/
                 
             }
             div.col2{
-                float: right;
+                /*float: right;*/
                 
             }
             div.col1,div.col2{
-                width: 45%;
+                width: 100%;
                 margin-top: 20px;
                 
             }
@@ -122,4 +139,42 @@ body{
             }
             *{
                 overflow: auto;
+            }
+
+            @media only screen and (min-width: 800px){
+               div.lower{
+                margin: -20px 10% 80px 10%;
+                padding: 30px;
+               }
+               table.t{
+                height: 60px;
+                }
+                table.t th {
+                    padding-bottom: 8px;
+                }
+                table.t td {
+                    font-size: 14px;
+                }
+                div.col1{
+               
+                display: inline-block;
+                padding-right: 10px;
+                
+                }
+                div.col2{
+                    float: right;
+                    
+                }
+                div.col1,div.col2{
+                    width: 45%;
+                    margin-top: 20px;
+                }
+                
+            }
+            @media only screen and (max-width: 700px){
+                div.lower{
+                    margin-left: auto;
+                    margin-right: auto;
+                    width: 650;
+                }
             }
